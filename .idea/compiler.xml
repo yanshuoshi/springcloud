@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eurekaclient" />
         <module name="eurekaserver" />
         <module name="zuulserver" />
-        <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
