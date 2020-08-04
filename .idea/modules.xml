@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/baseproject/baseproject.iml" filepath="$PROJECT_DIR$/baseproject/baseproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/baseproject/demo.iml" filepath="$PROJECT_DIR$/baseproject/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuulserver/zuulserver.iml" filepath="$PROJECT_DIR$/zuulserver/zuulserver.iml" />
