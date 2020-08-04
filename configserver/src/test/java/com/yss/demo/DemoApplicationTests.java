@@ -1,10 +1,10 @@
-package com.yss.configserver;
+package com.yss.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigserverApplicationTests {
+class DemoApplicationTests {
 
   @Test
   void contextLoads() {
