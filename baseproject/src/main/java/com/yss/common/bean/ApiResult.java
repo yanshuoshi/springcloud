@@ -2,8 +2,8 @@ package com.yss.common.bean;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.yss.common.bean.eum.ResultCode;
-import com.yss.common.bean.eum.ResultMessage;
+import com.yss.common.eum.ResultCode;
+import com.yss.common.eum.ResultMessage;
 
 /**
  * @Description: api 统一返回参数

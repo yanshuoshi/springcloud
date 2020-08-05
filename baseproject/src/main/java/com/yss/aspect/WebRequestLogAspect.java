@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.yss.common.bean.ApiResult;
 import com.yss.common.bean.OperatorLog;
 import com.yss.common.bean.RequestHeaderContext;
-import com.yss.common.bean.eum.ResultCode;
+import com.yss.common.eum.ResultCode;
 import com.yss.common.constant.BooleanClass;
 import com.yss.common.constant.UrlConstant;
 import com.yss.common.log.LogConfig;

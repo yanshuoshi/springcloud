@@ -1,4 +1,4 @@
-package com.yss.common.bean.eum;
+package com.yss.common.eum;
 
 /**
  * @Description: 返回标志
