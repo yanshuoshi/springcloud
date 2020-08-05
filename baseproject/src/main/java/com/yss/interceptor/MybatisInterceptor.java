@@ -25,7 +25,7 @@ import java.util.regex.Matcher;
 /**
  * @Description: 拦截打印完整sql语句
  * @author shuoshi.yan
- * @date 2020/0803
+ * @date 2020/08/03
  */
 @Slf4j
 @Intercepts({ @Signature(type = Executor.class, method = "update", args = { MappedStatement.class, Object.class }),
