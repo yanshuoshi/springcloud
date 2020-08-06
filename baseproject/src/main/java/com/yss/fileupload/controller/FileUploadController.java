@@ -1,32 +1,22 @@
 package com.yss.fileupload.controller;
 
-import cn.hutool.core.date.DateUtil;
 import com.yss.common.bean.ApiResult;
 import com.yss.fileupload.constant.FileConstant;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
-import sun.misc.BASE64Decoder;
-
-import javax.imageio.ImageIO;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.awt.image.BufferedImage;
 import java.io.*;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * @author Shuyu.Wang
- * @package:com.ganinfo.file.controller
- * @className:
+ * @author Shuoshi.yan
  * @description:文件上传工具类
- * @date 2018-03-06 13:43
+ * @date 2020/08/06
  **/
 @RestController
 @RequestMapping(value = "/file")

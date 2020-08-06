@@ -1,11 +1,9 @@
 package com.yss.fileupload.constant;
 
 /**
- * @author Shuyu.Wang
- * @package:com.ganinfo.file.constant
- * @className:
+ * @author Shuoshi.yan
  * @description:
- * @date 2018-03-06 13:48
+ * @date 2020/08/06
  **/
 
 public class FileConstant {
