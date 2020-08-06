@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author shuoshi.yan
- * @package:com.ganinfo.interceptor
+ * @package:com.yss.interceptor
  * @className:RequestHeaderContextInterceptor
  * @description:统一拦截request header
  * @date 2018-02-09 21:41

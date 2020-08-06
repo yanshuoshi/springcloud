@@ -32,6 +32,10 @@ public class ReturnClass<T> implements Serializable {
      */
     private Integer total;
 
+    public void setSuccess() {
+        this.success = true;
+    }
+
     public ReturnClass() {
         this.success = false;
         this.message = "Abnormal server";

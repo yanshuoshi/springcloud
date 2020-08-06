@@ -20,7 +20,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author shuoshi.yan
- * @package:com.ganinfo.utils
+ * @package:com.yss.utils
  * @className:
  * @description:ES连接池
  * @date 2018-04-18 11:26

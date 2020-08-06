@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myauth/myauth.iml" filepath="$PROJECT_DIR$/myauth/myauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybase/mybase.iml" filepath="$PROJECT_DIR$/mybase/mybase.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuulserver/zuulserver.iml" filepath="$PROJECT_DIR$/zuulserver/zuulserver.iml" />
     </modules>
   </component>

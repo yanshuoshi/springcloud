@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="baseproject" />
+        <module name="myauth" />
         <module name="zuulserver" />
         <module name="configserver" />
         <module name="eurekaserver" />
+        <module name="mybase" />
         <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
@@ -21,6 +23,8 @@
       <module name="EurekaServer" target="1.5" />
       <module name="eurekaserver" target="1.8" />
       <module name="eurekserver" target="1.5" />
+      <module name="myauth" target="1.8" />
+      <module name="mybase" target="1.8" />
       <module name="zuulserver" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,6 +34,8 @@
       <module name="baseproject" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="myauth" options="-parameters" />
+      <module name="mybase" options="-parameters" />
       <module name="zuulserver" options="-parameters" />
     </option>
   </component>

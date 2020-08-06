@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * @author shuoshi.yan
- * @package:com.ganinfo
+ * @package:com.yss
  * @className:
  * @description:ES服务接口
  * @date 2020/08/05
