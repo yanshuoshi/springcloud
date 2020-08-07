@@ -17,7 +17,7 @@ import java.util.Set;
  * @description:生成JedisCluster对象
  * @date 2020/08/05
  **/
-@Configuration
+//@Configuration
 public class JedisClusterConfig {
 
     @Autowired
