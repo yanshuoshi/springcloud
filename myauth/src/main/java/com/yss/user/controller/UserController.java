@@ -34,14 +34,16 @@ public class UserController {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     @ResponseBody
-    public ApiResult queryUser(HttpServletRequest request, @RequestParam(value = "userName", required = true) String userName, @RequestParam(value = "passWord", required = false) String passWord, @RequestParam(value = "sysFunction", required = false) String sysFunction, @RequestParam(value = "sysChildFunction", required = false) String sysChildFunction, @RequestParam(value = "auth", required = false) String auth, @RequestParam(value = "mac", required = false) String mac) {
+    public ApiResult queryUser(HttpServletRequest request,
+                               @RequestParam(value = "userName", required = true) String userName,
+                               @RequestParam(value = "passWord", required = false) String passWord) {
         ApiResult apiResult = new ApiResult();
         try {
 
             RedisService redisService = redisFactory.getRedis();
             //查询用户
 
-            ReturnClass<Map<String, Object>> returnClass = userService.queryUser(userName, passWord, auth, mac);
+            ReturnClass<Map<String, Object>> returnClass = userService.queryUser(userName, passWord);
             apiResult.setMessage(returnClass.getMessage());
         } catch (Exception e) {
             e.printStackTrace();

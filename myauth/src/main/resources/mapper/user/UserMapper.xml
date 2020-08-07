@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.user.mapper.UserMapper">
+
+    <select id="queryIsHavaUser" resultType="java.lang.Integer" parameterType="String">
+         SELECT state FROM t_user WHERE BINARY user_name=#{user_name} AND is_delete='0'
+    </select>
+
+</mapper>

@@ -14,6 +14,6 @@ public interface UserService {
      * @description:用户查询
      * @date: 2018/2/8 16:49
      */
-    ReturnClass<Map<String, Object>> queryUser(String userName, String passWord, String auth,String mac);
+    ReturnClass<Map<String, Object>> queryUser(String userName, String passWord);
 
 }

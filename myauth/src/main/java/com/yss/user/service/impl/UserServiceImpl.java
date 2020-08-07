@@ -40,7 +40,7 @@ public class UserServiceImpl implements UserService {
 
 
     @Override
-    public ReturnClass<Map<String, Object>> queryUser(String userName, String passWord, String auth, String mac) {
+    public ReturnClass<Map<String, Object>> queryUser(String userName, String passWord) {
         ReturnClass<Map<String, Object>> returnClass = new ReturnClass<>();
         Map<String, Object> map = new HashMap<>();
 
