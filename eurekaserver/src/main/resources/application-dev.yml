@@ -14,8 +14,19 @@ eureka:
     # 注册中心地址，如果服务注册中心为高可用集群时，多个注册中心地址以逗号分隔。
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  # 关闭自我保护模式
+  server:
+    enable-self-preservation: false
 
 spring:
   application:
     # 服务名称
     name: eureka-server
+
+# 通过HTTP发送shutdown信号
+endpoints:
+  shutdown:
+  # 启用shutdown
+  enabled: true
+  # 禁用密码验证
+  sensitive: false
