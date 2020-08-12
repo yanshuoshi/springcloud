@@ -100,6 +100,13 @@
             <version>2.9.0</version>
         </dependency>
 
+        <!-- 数据库驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.44</version>
+        </dependency>
+
         <!--消息总线-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

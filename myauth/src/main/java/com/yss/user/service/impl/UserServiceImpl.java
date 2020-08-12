@@ -43,13 +43,13 @@ public class UserServiceImpl implements UserService {
     public ReturnClass<Map<String, Object>> queryUser(String userName, String passWord) {
         ReturnClass<Map<String, Object>> returnClass = new ReturnClass<>();
         Map<String, Object> map = new HashMap<>();
-
-        //用户是否存在
-        Integer state = userMapper.queryIsHavaUser(userName);
-        RedisService redisService = redisFactory.getRedis();
-
-        String code = redisService.login("usercode");
-        map.put("accessToken", code);
+        map.put("a","a");
+//        //用户是否存在
+//        Integer state = userMapper.queryIsHavaUser(userName);
+//        RedisService redisService = redisFactory.getRedis();
+//
+//        String code = redisService.login("usercode");
+//        map.put("accessToken", code);
 
         returnClass.setSuccess(true);
         returnClass.setData(map);

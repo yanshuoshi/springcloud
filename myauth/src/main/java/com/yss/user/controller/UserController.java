@@ -32,10 +32,8 @@ public class UserController {
     @Autowired
     private RedisFactory redisFactory;
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
-    @ResponseBody
-    public ApiResult queryUser(HttpServletRequest request,
-                               @RequestParam(value = "userName", required = true) String userName,
+    @GetMapping(value = "/login")
+    public ApiResult queryUser(@RequestParam(value = "userName", required = true) String userName,
                                @RequestParam(value = "passWord", required = false) String passWord) {
         ApiResult apiResult = new ApiResult();
         try {
