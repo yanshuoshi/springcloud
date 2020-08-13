@@ -42,7 +42,8 @@ public class UserController {
             //查询用户
 
             ReturnClass<Map<String, Object>> returnClass = userService.queryUser(userName, passWord);
-            apiResult.setMessage(returnClass.getMessage());
+            apiResult.setData(returnClass.getData());
+            apiResult.setSuccess();
         } catch (Exception e) {
             e.printStackTrace();
         }
