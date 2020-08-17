@@ -32,7 +32,7 @@ public class UserController {
     @Autowired
     private RedisFactory redisFactory;
 
-    @GetMapping(value = "/login")
+    @GetMapping(value = "/add")
     public ApiResult queryUser(@RequestParam(value = "userName", required = true) String userName,
                                @RequestParam(value = "passWord", required = false) String passWord) {
         ApiResult apiResult = new ApiResult();
